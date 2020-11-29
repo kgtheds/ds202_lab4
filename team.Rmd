@@ -1,0 +1,21 @@
+---
+title: "Lab 4"
+output: html_notebook
+---
+
+
+```{r}
+library(readxl)
+defense <- read_excel('cyclonesFootball2019.xlsx', sheet='Defensive')
+str(defense)
+
+
+offense <- read_excel('cyclonesFootball2019.xlsx', sheet='Offensive')
+str(offense)
+
+
+biography <- read_excel('cyclonesFootball2019.xlsx', sheet='Biography')
+str(biography)
+```
+
+
